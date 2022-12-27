@@ -25,19 +25,18 @@ ul > li > a {
 text-decoration: none;
 }
 
-/*#first-item{  
-color: #2196F3;
-}*/
-
-.first-list .list-item:hover{
+.first-list .list-item:hover,
+.first-list .list-item:focus{
 color: #2196F3;    
 }
 
-.second-list .list-item:hover{
+.second-list .list-item:hover,
+.second-list .list-item:focus{
 color: #2196F3;    
 }
 
-.contact-info .list-item:hover{
+.contact-info .list-item:hover,
+.contact-info .list-item:focus{
 color: #2196F3;    
 }
 
@@ -64,7 +63,8 @@ width: 1600px;
 height: 600px;
 }
 
-.service-requesting .button-setter:hover{
+.service-requesting .button-setter:hover,
+.service-requesting .button-setter:focus{
 color:#212121;    
 }
 
