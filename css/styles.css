@@ -25,8 +25,20 @@ ul > li > a {
 text-decoration: none;
 }
 
-#first-item{  
+/*#first-item{  
 color: #2196F3;
+}*/
+
+.first-list .list-item:hover{
+color: #2196F3;    
+}
+
+.second-list .list-item:hover{
+color: #2196F3;    
+}
+
+.contact-info .list-item:hover{
+color: #2196F3;    
 }
 
 .first-list a {
@@ -50,10 +62,10 @@ color: #757575;
 background: #2F303A;
 width: 1600px;
 height: 600px;
+}
 
-
-
-
+.service-requesting .button-setter:hover{
+color:#212121;    
 }
 
 .effective-solutions{
@@ -79,11 +91,12 @@ border-radius: 4px;
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 188%;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+cursor: pointer;
 }
 
 .features h3 {
@@ -100,8 +113,6 @@ color: #212121;
 
 .features p {
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 color: #757575;
@@ -141,8 +152,6 @@ color: #212121;
 
 .team-pictures p { 
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 19px;   
 text-align: center;
