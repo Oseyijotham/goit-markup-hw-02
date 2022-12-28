@@ -141,6 +141,10 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
+.team-pictures{
+background: #F5F4FA; 
+}
+
 .team-pictures h2 {
 font-family: 'Roboto';
 font-style: normal;
