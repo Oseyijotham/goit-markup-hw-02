@@ -4,7 +4,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: calc(31/26);
 letter-spacing: 0.03em;
 color: #2196F3;
 }
@@ -17,6 +17,10 @@ ul > li > a {
 text-decoration: none;
 }
 
+body{
+font-family: 'Roboto', sans-serif;
+}
+
 .first-list .list-item:hover,
 .first-list .list-item:focus{
 color: #2196F3;    
@@ -25,6 +29,10 @@ color: #2196F3;
 .first-list .list-item:active{
 color:purple;    
 }
+
+/*.first-list > li > a[href="portfolio.html"]:visited{
+color:#2196F3;    
+}*/
 
 
 .second-list .list-item:hover,
@@ -46,26 +54,22 @@ color:purple;
 }
 
 .first-list a {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #212121;}
 
 .second-list a {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #757575;
 }
 
 .service-requesting {
 background: #2F303A;
-width: 1600px;
-height: 600px;
 }
 
 .service-requesting .button-setter:hover,
@@ -74,10 +78,9 @@ color:#212121;
 }
 
 .effective-solutions{
-font-family: 'Roboto', sans-serif;
 font-weight: 900;
 font-size: 44px;
-line-height: 136%;
+line-height: calc(60/44);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;   
@@ -85,50 +88,40 @@ color: #FFFFFF;
 }
 
 .button-setter{
-position: absolute;
-width: 200px;
-height: 50px;
 left: 700px;
 top: 430px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 16px;
-line-height: 188%;
+line-height: calc(30/16);
 align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 cursor: pointer;
 }
 
-.features h3 {
-width: 270px;
-height: 15.05px;    
-font-family: 'Roboto', sans-serif;
+.features h3 {    
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: calc(16/14);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
 
 .features p {
-font-family: 'Roboto';
 font-size: 14px;
-line-height: 24px;
+line-height: calc(24/14);
 color: #757575;
 }
 
 .work-pictures h2 {
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: calc(42/36);
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -138,31 +131,28 @@ background: #F5F4FA;
 }
 
 .team-pictures h2 {
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: calc(42/36);
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121; 
 }
 
 .team-pictures h3{
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;   
+line-height: calc(19/16);   
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
 
 .team-pictures p { 
-font-family: 'Roboto';
 font-size: 16px;
-line-height: 19px;   
+line-height: calc(19/16);   
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
@@ -177,7 +167,7 @@ background: #2F303A;
 .contact-info a {
 font-family: 'Roboto';
 font-size: 14px;
-line-height: 171%;   
+line-height: calc(24/14);   
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
@@ -185,7 +175,7 @@ color: #FFFFFF;
 .contact-info > li > a[href="mailto:example@gmail.ru"]{
 font-family: 'Roboto';
 font-size: 14px;
-line-height: 171%;
+line-height: calc(24/14);
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);   
 }
@@ -193,7 +183,7 @@ color: rgba(255, 255, 255, 0.6);
 .contact-info > li > a[href="tel:+12127724150"]{
 font-family: 'Roboto';
 font-size: 14px;
-line-height: 171%;
+line-height: calc(24/14);
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);   
 }
@@ -212,11 +202,16 @@ border-radius: 4px;
 
 .third-list .list-item:hover,
 .third-list .list-item:focus{
-background-color:#2196F3;    
+background-color:#2196F3; 
+color:#FFFFFF   
 }
 
 .third-list .list-item:active{
 color: #FFFFFF;    
+}
+
+.address-setter{
+font-style: normal;
 }
 
 /*.third-list > li > a[href="all.html"]{
