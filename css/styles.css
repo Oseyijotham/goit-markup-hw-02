@@ -20,12 +20,12 @@ body{
 font-family: 'Roboto', sans-serif;
 }
 
-.first-list .list-item:hover,
-.first-list .list-item:focus{
+.nav-list .nav-item-link:hover,
+.nav-list .nav-item-link:focus{
 color: #2196F3;    
 }
 
-.first-list .list-item:active{
+.nav-list .nav-item-link:active{
 color:purple;    
 }
 
@@ -34,12 +34,12 @@ color:#2196F3;
 }*/
 
 
-.second-list .list-item:hover,
-.second-list .list-item:focus{
+.contacts-list .list-item:hover,
+.contacts-list .list-item:focus{
 color: #2196F3;    
 }
 
-.second-list .list-item:active{
+.contacts-list .list-item:active{
 color:purple;    
 }
 
@@ -52,14 +52,14 @@ color: #2196F3;
 color:purple;    
 }
 
-.first-list a {
+.nav-list a {
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #212121;}
 
-.second-list a {
+.contacts-list a {
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
@@ -163,7 +163,7 @@ height: 252px;
 background: #2F303A;
 }
 
-.contact-info a {
+.contact-info .list-item {
 font-family: 'Roboto';
 font-size: 14px;
 line-height: calc(24/14);   
@@ -187,7 +187,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);   
 }
 
-.third-list a {
+.portfolio-nav-list .list-item{
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
@@ -199,13 +199,13 @@ background: #F5F4FA;
 border-radius: 4px;   
 }
 
-.third-list .list-item:hover,
-.third-list .list-item:focus{
+.portfolio-nav-list .list-item:hover,
+.portfolio-nav-list .list-item:focus{
 background-color:#2196F3; 
 color:#FFFFFF   
 }
 
-.third-list .list-item:active{
+.portfolio-nav-list .list-item:active{
 color: #FFFFFF;    
 }
 
