@@ -52,14 +52,14 @@ color: #2196F3;
 color:purple;    
 }
 
-.nav-list a {
+.nav-list .nav-item-link{
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #212121;}
 
-.contacts-list a {
+.contacts-list .list-item{
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
@@ -101,7 +101,7 @@ color: #FFFFFF;
 cursor: pointer;
 }
 
-.features h3 {    
+.features .features-headers{    
 font-weight: 700;
 font-size: 14px;
 line-height: calc(16/14);
@@ -110,13 +110,13 @@ text-transform: uppercase;
 color: #212121;
 }
 
-.features p {
+.features .features-text{
 font-size: 14px;
 line-height: calc(24/14);
 color: #757575;
 }
 
-.work-pictures h2 {
+.work-pictures .work-pictures-main-header{
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -129,7 +129,7 @@ letter-spacing: 0.03em;
 background: #F5F4FA; 
 }
 
-.team-pictures h2 {
+.team-pictures .team-pictures-main-header{
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -139,7 +139,7 @@ letter-spacing: 0.03em;
 color: #212121; 
 }
 
-.team-pictures h3{
+.team-pictures .team-item-title{
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -149,7 +149,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
-.team-pictures p { 
+.team-pictures .team-item-text{ 
 font-size: 16px;
 line-height: calc(19/16);   
 text-align: center;
@@ -163,7 +163,7 @@ height: 252px;
 background: #2F303A;
 }
 
-.contact-info .list-item {
+.contact-info .list-item{
 font-family: 'Roboto';
 font-size: 14px;
 line-height: calc(24/14);   
