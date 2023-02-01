@@ -67,16 +67,11 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-.service-requesting {
+.hero {
 background: #2F303A;
 }
 
-.service-requesting .button-setter:hover,
-.service-requesting .button-setter:focus{
-color:#212121;    
-}
-
-.effective-solutions{
+.hero-title{
 font-weight: 900;
 font-size: 44px;
 line-height: calc(60/44);
@@ -86,7 +81,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.button-setter{
+.button-section{
 left: 700px;
 top: 430px;
 background: #2196F3;
@@ -101,7 +96,12 @@ color: #FFFFFF;
 cursor: pointer;
 }
 
-.features .features-headers{    
+.button-section:hover,
+.button-section:focus {
+    color: #212121;
+}
+
+.features-headers{    
 font-weight: 700;
 font-size: 14px;
 line-height: calc(16/14);
@@ -110,13 +110,13 @@ text-transform: uppercase;
 color: #212121;
 }
 
-.features .features-text{
+.features-text{
 font-size: 14px;
 line-height: calc(24/14);
 color: #757575;
 }
 
-.work-pictures .work-pictures-main-header{
+.work-title{
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -125,11 +125,11 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.team-pictures{
+.team-section{
 background: #F5F4FA; 
 }
 
-.team-pictures .team-pictures-main-header{
+.team-title{
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -139,7 +139,7 @@ letter-spacing: 0.03em;
 color: #212121; 
 }
 
-.team-pictures .team-item-title{
+.team-item-title{
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -149,7 +149,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
-.team-pictures .team-item-text{ 
+.team-item-text{ 
 font-size: 16px;
 line-height: calc(19/16);   
 text-align: center;
